@@ -33,13 +33,13 @@ using UnityEngine;
 
 public class MisilLogic : MonoBehaviour
 {
-    public float coolDown = 2f;
-    private bool iCanFire = true;
-
     public Transform tankFirePoint;
     public GameObject misilPrefab;
 
     public float bulletSpeed;
+
+    public float coolDown = 2f;
+    private bool iCanFire = true;
 
     void Update()
     {

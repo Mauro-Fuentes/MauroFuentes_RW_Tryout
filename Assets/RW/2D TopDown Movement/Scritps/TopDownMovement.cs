@@ -32,10 +32,10 @@ using UnityEngine;
 
 public class TopDownMovement : MonoBehaviour
 {
+    public int velocity;
+
     private Vector3 movement;
     private Animator cattoAnimator;
-
-    public int velocity;
 
     void Start()
     {

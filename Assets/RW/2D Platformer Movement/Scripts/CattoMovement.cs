@@ -32,19 +32,19 @@ using UnityEngine;
 
 public class CattoMovement : MonoBehaviour
 {
-    private Rigidbody2D cattoRigidbody2D;
-    private Animator cattoAnimator;
-
-    private bool cattoIsfacingRight = true;
-    private bool cattoIsJumping = false;
-    private bool cattoIsGrounded = false;
-
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask ground;
     public float moveInput;
     public float cattoSpeed;
     public float cattoJumpForce;
+    
+    private Rigidbody2D cattoRigidbody2D;
+    private Animator cattoAnimator;
+
+    private bool cattoIsfacingRight = true;
+    private bool cattoIsJumping = false;
+    private bool cattoIsGrounded = false;
 
     void Start()
     {
